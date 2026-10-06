@@ -1,17 +1,7 @@
-text,label
-"Sister of man who died in Vancouver police custody slams chief",WORLD
-"Man Sought $50M From McGreevey, Aides Say",WORLD
-"Explosions Echo Throughout Najaf",WORLD
-"Venezuela Prepares for Chavez Recall Vote",WORLD
-"Giddy Phelps Touches Gold for First Time",SPORTS
-"Tougher rules won't soften Law's game",SPORTS
-"Indians Mount Charge",SPORTS
-"Johnson Helps D-Backs End Nine-Game Slide",SPORTS
-"Fears for T N pension after talks",BUSINESS
-"Retailers Vie for Back-To-School Buyers",BUSINESS
-"Dollar Briefly Hits 4-Wk Low Vs Euro",BUSINESS
-"Treasuries Slip as Stocks Rally",BUSINESS
-"The Race is On: Second Private Team Sets Launch Date for Human Spaceflight",SCI/TECH
-"Ky. Company Wins Grant to Study Peptides",SCI/TECH
-"Group to Propose New High-Speed Wireless Format",SCI/TECH
-"Apple Launches Graphics Software, Video Bundle",SCI/TECH
+x_text,y_label
+"Microsoft announced a new artificial intelligence model for developers.",Sci/Tech
+"The national football team won the championship final.",Sports
+"European leaders met to discuss a new security agreement.",World
+"Company shares increased after strong quarterly earnings.",Business
+"Researchers introduced a new processor for machine learning workloads.",Sci/Tech
+"A major tennis tournament concluded with an unexpected victory.",Sports

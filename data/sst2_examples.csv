@@ -1,17 +1,7 @@
-text,label
-"a stirring , funny and finally transporting re imagining of beauty and the beast and 1930s horror films",POSITIVE
-"apparently reassembled from the cutting room floor of any given daytime soap",NEGATIVE
-"campanella gets the tone just right funny in the middle of sad in the middle of hopeful",POSITIVE
-"b art and berling are both superb , while huppert is magnificent",POSITIVE
-"the film is strictly routine",NEGATIVE
-"the most repugnant adaptation of a classic text since roland joff and demi moore 's the scarlet letter",NEGATIVE
-"this is a stunning film , a one of a kind tour de force",POSITIVE
-"may be more genial than ingenious , but it gets the job done",POSITIVE
-"final verdict you 've seen it all before",NEGATIVE
-"a slick , engrossing melodrama",POSITIVE
-"a wretched movie that reduces the second world war to one man 's quest to find an old flame",NEGATIVE
-"too bad",NEGATIVE
-"a fun ride",POSITIVE
-"an edgy thriller that delivers a surprising punch",POSITIVE
-"lurid and less than lucid work",NEGATIVE
-"overall , cletis tout is a winning comedy that excites the imagination and tickles the funny bone",POSITIVE
+x_text,y_label
+"A charming and beautifully acted film.",positive
+"The movie is boring and painfully slow.",negative
+"A surprisingly enjoyable experience.",positive
+"The story is predictable and disappointing.",negative
+"This film delivers an emotional and satisfying ending.",positive
+"The characters are dull and uninteresting.",negative

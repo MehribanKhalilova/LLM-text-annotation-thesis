@@ -1,22 +1,61 @@
-# LLM Text Annotation Thesis
+# Automatic Labeling of Text Data Using Large Language Models
 
-Repository for the Master's thesis project:
+This repository supports the practical part of the master's thesis
+"Automatic Labeling of Text Data Using Large Language Models".
 
-**Automatic Labeling of Text Data Using Large Language Models**
+## 1.2 Project as an End-to-End Solution
 
-## Project goal
+The purpose of the project is to investigate how Large Language Models
+(LLMs) can be used as automatic annotators for text classification.
 
-The project investigates whether Large Language Models (LLMs) can be used as automatic annotators for text classification tasks.
+The system receives unlabeled text together with a predefined set of
+possible class labels. An LLM is prompted to analyze the text and assign
+one of the available labels.
 
-The workflow is:
+The overall workflow is:
 
-1. Load a labeled text dataset.
-2. Take an input text `X`.
-3. Create a classification prompt.
-4. Send the prompt to an LLM.
-5. Receive the predicted label `ŷ`.
-6. Compare `ŷ` with the ground-truth label `y`.
-7. Evaluate the results using metrics such as accuracy, precision, recall, and F1-score.
-8. Analyze errors and compare model behavior.
+Raw text → LLM → Predicted label → Evaluation → Labeled dataset
 
-The thesis experiments use benchmark text-classification datasets such as **SST-2** and **AG News** and compare multiple LLMs under the same evaluation setup.
+During the experimental evaluation, benchmark datasets containing
+human-annotated ground-truth labels are used. The LLM-generated labels
+are compared with these reference labels using classification metrics
+such as accuracy, precision, recall, and F1-score.
+
+### Definition of X and y
+
+In the context of this thesis:
+
+- **X** represents the input text that should be classified.
+- **y** represents the expected ground-truth class label assigned to
+  that text.
+- **ŷ (y-hat)** represents the label predicted by the LLM.
+
+In the example CSV files:
+
+- `x_text` corresponds to **X**
+- `y_label` corresponds to **y**
+
+Therefore, one sample can be represented as:
+
+(X, y)
+
+Example for SST-2:
+
+X = "A charming and beautifully acted film."
+y = positive
+
+Example for AG News:
+
+X = "Microsoft announced a new artificial intelligence model for developers."
+y = Sci/Tech
+
+The objective of the experimental system is to produce a prediction ŷ
+that matches the ground-truth label y as accurately and consistently as
+possible.
+
+## Example Data
+
+Example (X, y) pairs are available in the `data/` directory:
+
+- `data/sst2_examples.csv` – binary sentiment classification examples
+- `data/ag_news_examples.csv` – four-class news topic classification examples
